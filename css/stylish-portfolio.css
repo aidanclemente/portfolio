@@ -355,7 +355,7 @@ a:hover, a:focus, a:active {
 }
 
 .bg-primary {
-  background-color: #000;
+  background-color: #000  ;
 }
 
 .text-primary {
@@ -368,4 +368,8 @@ a:hover, a:focus, a:active {
 
 #about {
   background-color: black;
+}
+
+#contactHeader {
+  padding-top: 10px;
 }
