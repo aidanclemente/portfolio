@@ -214,9 +214,11 @@
         </div> 
         <div class="row"> 
           <div class="col-lg-8 col-lg-offset-2"> 
-            <form name="sentMessage" id="contactForm" novalidate="" class="ng-pristine ng-valid" _lpchecked="1">  
+            
+            <form method="POST" action="https://formspree.io/aidanclemente@gmail.com"
+             name="sentMessage" id="contactForm" novalidate="" class="ng-pristine ng-valid" _lpchecked="1">  
               <div class="row control-group"> <div class="form-group col-xs-12"> <input type="text" class="form-control" placeholder="Name" id="name"> </div> </div> <div class="row control-group"> <div class="form-group col-xs-12"> <input type="email" class="form-control" placeholder="Email Address" id="email"> </div> </div> <div class="row control-group"> <div class="form-group col-xs-12"> <input type="tel" class="form-control" placeholder="Phone Number" id="phone"> </div> </div> <div class="row control-group"> <div class="form-group col-xs-12"> <textarea rows="5" class="form-control" placeholder="Message" id="message"></textarea> </div> </div> <br> <div class="row"> <div class="col-xs-12"> <button id="submitForm" type="submit" class="btn btn-lg">Send</button> </div> </div> </form> 
-              <script  src="https://src.fireform.org/fireform.min.js"></script> 
+              <!-- <script  src="https://src.fireform.org/fireform.min.js"></script> 
               
               <script>
                 console.log(Fireform);
@@ -224,7 +226,7 @@
                   emailNotification:"aidanclemente@gmail.com",
                 }
                 new Fireform('#contactForm', 'https://fireform.org/list/98d40f66-d140-4b12-a69d-5012a62d8925/ContactMe', options);
-              </script> 
+              </script>  -->
             </div> 
           </div> </div> </section>
 
