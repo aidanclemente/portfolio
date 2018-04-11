@@ -100,16 +100,20 @@ font-size: 2rem;
 }
 }
 
+#portfolio, #about {
+    padding-top: 2em;
+}
+
 #submitForm {
     background-color: rgb(63, 20, 112);
     border-radius: 5px;
 }
 
-/* .myPicture {
+.myPicture {
     text-align: center;
     display: inline-block;
 } */
 
 /* .myPicture img {
     margin-top:25px;
-} */
+}
