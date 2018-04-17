@@ -15,6 +15,7 @@ body {
     border: none;
     border-bottom: 1px solid gray;
     border-radius: 0px;
+    background-color: rgb(255, 255, 224);
 }
 
 .fa, #footerConnect {
@@ -112,8 +113,8 @@ font-size: 2rem;
 .myPicture {
     text-align: center;
     display: inline-block;
-} */
+} 
 
-/* .myPicture img {
-    margin-top:25px;
+.myPicture img {
+    margin-top: 1.5em;
 }
