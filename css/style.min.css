@@ -1,4 +1,4 @@
-.carousel,.carousel .carousel-inner,.carousel .carousel-inner .active,.carousel .carousel-inner .carousel-item,.view,body,html{height:100%}.navbar{background-color:rgba(0,0,0,.2)}.page-footer,.top-nav-collapse{background-color:#1C2331}@media only screen and (max-width:768px){.navbar{background-color:#1C2331}}
+.carousel,.carousel .carousel-inner,.carousel .carousel-inner .active,.carousel .carousel-inner .carousel-item,.view,body,html{height:100vw}.navbar{background-color:rgba(0,0,0,.2)}.page-footer,.top-nav-collapse{background-color:#1C2331}@media only screen and (max-width:768px){.navbar{background-color:#1C2331}}
 body {
     background-color: rgb(255, 255, 224);
 }
@@ -19,10 +19,11 @@ body {
 }
 
 .fa, #footerConnect {
-    font-size: 25px;
+    font-size: 1.5em;
 }
+
 small, .fa-coffee, .fa-heart {
-    font-size: 15px;
+    font-size: 1em;
 }
 
 #footerConnect {
@@ -117,4 +118,15 @@ font-size: 2rem;
 
 .myPicture img {
     margin-top: 1.5em;
+}
+
+@media screen and (max-width: 500px) {
+    
+    .aidan {
+        font-size: 2rem;
+    }
+
+    .adjectives{
+        font-size: 1.5rem;
+    }
 }
