@@ -119,12 +119,15 @@ font-size: 2rem;
 
 /* ============================= Media Queries ========================================= */
 @media screen and (max-width:768px){
+    .carousel,.carousel .carousel-inner,.carousel .carousel-inner .active,.carousel .carousel-inner .carousel-item,.view,body,html {
+        height:100vw;
+    }
 
     .navbar {
         background-color:rgb(28, 35, 49);
     }
 
-    .view,body,html {
+    .view, body, html {
         height:100vw;
     }
 
