@@ -1,4 +1,15 @@
-.carousel,.carousel .carousel-inner,.carousel .carousel-inner .active,.carousel .carousel-inner .carousel-item,.view,body,html{height:100%}.navbar{background-color:rgba(0,0,0,.2)}.page-footer,.top-nav-collapse{background-color:#1C2331}@media only screen and (max-width:768px){.navbar{background-color:#1C2331}}
+.carousel,.carousel .carousel-inner,.carousel .carousel-inner .active,.carousel .carousel-inner .carousel-item,.view,body,html {
+    height:100%;
+}
+
+.navbar {
+    background-color:rgba(0,0,0,.2);
+}
+
+.page-footer,.top-nav-collapse {
+    background-color:rgb(28, 35, 49);
+}
+
 body {
     background-color: rgb(255, 255, 224);
 }
@@ -12,13 +23,13 @@ body {
 }
 
 .adjectives, .aidan {
-    text-shadow: 0 0 5px #000;
+    text-shadow: 0 0 5px rgb(0, 0, 0);
 }
 
 .form-control {
     border: none;
     font-size: 1.5em;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid rgb(128, 128, 128);
     border-radius: 0px;
     background-color: rgb(255, 255, 224);
 }
@@ -62,16 +73,7 @@ opacity: 1;
 font-size: 1.5rem;
 }
 
-@media (min-width: 576px) {
-.portfolio {
-    margin-bottom: -30px;
-}
-.portfolio .portfolio-item {
-    margin-bottom: 30px;
-}
-}
-
-.portfolio-modal .portfolio-modal-dialog {
+/* .portfolio-modal .portfolio-modal-dialog {
 padding: 3rem 1rem;
 min-height: calc(100vh - 2rem);
 margin: 1rem calc(1rem - 8px);
@@ -94,40 +96,49 @@ line-height: 38px;
 
 .portfolio-modal .portfolio-modal-dialog h2 {
 font-size: 2rem;
+} */
+
+
+#portfolio, #about {
+    padding-top: 2em;
 }
 
-@media screen and (max-width: 768px) {
+#submitForm {
+    background-color: rgb(28, 35, 49);
+    border-radius: 5px;
+}
+
+.myPicture {
+    text-align: center;
+    display: inline-block;
+} 
+
+.myPicture img {
+    margin-top: 1.5em;
+}
+
+/* ============================= Media Queries ========================================= */
+@media screen and (max-width:768px){
+
+    .navbar {
+        background-color:rgb(28, 35, 49);
+    }
+
     .view,body,html {
         height:100vw;
     }
 
-    .portfolio-modal .portfolio-modal-dialog {
-        min-height: 100vh;
-        padding: 5rem;
-        margin: 3rem calc(3rem - 8px);
-    }
-    .portfolio-modal .portfolio-modal-dialog h2 {
-        font-size: 3rem;
-    }
+}    
+
+@media (min-width: 576px) {
+    .portfolio {
+        margin-bottom: -30px;
     }
 
-    #portfolio, #about {
-        padding-top: 2em;
+    .portfolio .portfolio-item {
+        margin-bottom: 30px;
     }
-
-    #submitForm {
-        background-color: rgb(28, 35, 49);
-        border-radius: 5px;
-    }
-
-    .myPicture {
-        text-align: center;
-        display: inline-block;
-    } 
-
-    .myPicture img {
-        margin-top: 1.5em;
-    }
+}
 
 @media screen and (max-width: 500px) {
     
@@ -137,5 +148,16 @@ font-size: 2rem;
 
     .adjectives{
         font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    
+    .aidan {
+        font-size: 1.25rem;
+    }
+
+    .adjectives{
+        font-size: 1rem;
     }
 }
